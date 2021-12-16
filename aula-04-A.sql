@@ -27,7 +27,6 @@ create table aluno_curso (
 insert into aluno_curso (aluno_id, curso_id) values (1, 3);
 insert into aluno_curso (aluno_id, curso_id) values (2, 3);
 insert into aluno_curso (aluno_id, curso_id) values (3, 1);
-
 insert into aluno_curso (aluno_id, curso_id) values (4, 1);
 --ERRO:  inserção ou atualização em tabela "aluno_curso" viola restrição de chave estrangeira "aluno_curso_aluno_id_fkey"
 --DETAIL:  Chave (aluno_id)=(4) não está presente na tabela "aluno".
